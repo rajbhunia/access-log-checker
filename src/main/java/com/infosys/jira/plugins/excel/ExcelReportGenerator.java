@@ -21,8 +21,6 @@ public class ExcelReportGenerator {
     private AtomicInteger counter = new AtomicInteger(0);
 
     public void generate(Map<String, EmailReport> emailReportMap) throws IOException {
-        logger.info("Data map : " + emailReportMap);
-
         Workbook workbook = new HSSFWorkbook();
         Sheet sheet = workbook.createSheet();
         createHeaderRow(sheet);

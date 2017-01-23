@@ -42,7 +42,10 @@ public class EmailUtil {
         body.append("<div lang=\"EN-US\">");
         body.append("<div>");
         body.append("<p><span style=\"color:#2F5496\">Hi All,</span></p>");
-        body.append("<p ><span style=\"color:#2F5496\">Please find below the browser usage report for the users not using Chrome.</span></p>");
+        body.append("<p ><span style=\"color:#2F5496\">Please find the attached browser usage report for users not using Chrome.</span></p>");
+        body.append("<p ><span style=\"color:#2F5496\">The list provides the users accessed http://ontrack-internal.amd.com via non-Chrome browsers from 00:00:00 – 23:59:59 (EST)</span></p>");
+        body.append("<p ><span style=\"color:#2F5496\">Regards,</span></p>");
+        body.append("<p ><span style=\"color:#2F5496\">JIRA Team</span></p>");
 
 //        body.append("<table border=\"1\" cellspacing=\"0\" cellpadding=\"0\" style=\"border-collapse:collapse; border:none\">");
 //        body.append("<tbody>\n<tr>");

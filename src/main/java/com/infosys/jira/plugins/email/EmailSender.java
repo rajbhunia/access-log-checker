@@ -38,7 +38,6 @@ public class EmailSender {
         email.setBody(EmailUtil.getBody(userMap));
 
         Multipart multipart = new MimeMultipart();
-        MimeBodyPart messageBodyPart = new MimeBodyPart();
 
         MimeBodyPart attachPart = new MimeBodyPart();
 

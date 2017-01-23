@@ -51,6 +51,8 @@ public class AccessLogAnalyzerImpl implements AccessLogAnalyzer, LifecycleAware 
 
         EmailSender emailSender = new EmailSender();
         emailSender.send(emailReports, PluginConstants.EXCEL_REPORT_PATH);
+
+
     }
 
     @Override

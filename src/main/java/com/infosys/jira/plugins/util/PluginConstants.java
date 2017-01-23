@@ -14,6 +14,7 @@ import java.util.Date;
  */
 public class PluginConstants {
 
+    // This needs to be changed when deploying it to producton.
     public static final String JIRA_ACCESS_LOG_HOME = "F:\\Atlassian\\JIRA\\logs";
 
     public static final String JIRA_ACCESS_LOG_FILE_PREFIX = "access_log";
